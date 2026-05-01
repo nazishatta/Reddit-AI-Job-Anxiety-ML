@@ -1,4 +1,4 @@
-# 🧠 Reddit AI Job Anxiety — ML Pipeline
+#  Reddit AI Job Anxiety — ML Pipeline
 ### Predicting AI-Driven Job Anxiety from 446 GB of Reddit Discussions at Scale
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 This project builds an end-to-end machine learning pipeline to **detect and quantify AI-driven job anxiety** in Reddit discussions between **June 2023 and July 2024**.
 
@@ -19,7 +19,7 @@ Using **446 GB of Reddit comment data** processed on an **AWS EC2 Spark cluster*
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 446 GB Reddit Parquet Data (Amazon S3)
@@ -58,7 +58,7 @@ Using **446 GB of Reddit comment data** processed on an **AWS EC2 Spark cluster*
 
 ---
 
-## 🎯 What This Pipeline Does
+##  What This Pipeline Does
 
 ### 1. Large-Scale Data Filtering (Spark)
 - Reads **446 GB** of Reddit Parquet data from **Amazon S3**
@@ -112,7 +112,7 @@ Beyond binary classification, the pipeline predicts **anxiety intensity** on 4 l
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -128,7 +128,7 @@ Beyond binary classification, the pipeline predicts **anxiety intensity** on 4 l
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 reddit-ai-job-anxiety-ml/
@@ -144,7 +144,7 @@ reddit-ai-job-anxiety-ml/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### Prerequisites
 - Python 3.10+
@@ -169,11 +169,11 @@ spark-submit \
   src/ml/ml_pipeline.py
 ```
 
-> ⚠️ Stage 1 uses checkpointing — if the labeled CSV already exists on S3, it is downloaded automatically and Spark processing is skipped.
+>  Stage 1 uses checkpointing — if the labeled CSV already exists on S3, it is downloaded automatically and Spark processing is skipped.
 
 ---
 
-## 🔑 Key Engineering Decisions
+##  Key Engineering Decisions
 
 **Why negation handling?**
 Simple keyword matching would flag *"I'm not worried about AI"* as anxious. The pipeline merges negation phrases into single tokens (`not_worried`, `dont_worry`) before any downstream processing.
@@ -189,7 +189,7 @@ Random splits assume the future looks like the past. The temporal 70/30 split te
 
 ---
 
-## 📊 Outputs Generated
+##  Outputs Generated
 
 | Output | Description |
 |--------|-------------|
@@ -204,7 +204,7 @@ Random splits assume the future looks like the past. The temporal 70/30 split te
 
 ---
 
-## ⚠️ Limitations & Honest Notes
+##  Limitations & Honest Notes
 
 - Labels are derived from **weak supervision** (keyword matching), not manual annotation. Models may partially learn the labeling heuristic rather than true anxiety.
 - Class imbalance is handled via downsampling (3:1 negative:positive ratio) and `class_weight='balanced'`, but minority class performance remains a challenge.
@@ -213,6 +213,6 @@ Random splits assume the future looks like the past. The temporal 70/30 split te
 
 ---
 
-## 🤝 Project Context
+##  Project Context
 
 This is the **ML component** of a larger group research project (*DATS 6450*) studying AI's emotional and behavioral impact on Reddit. The full project also includes an EDA component and an NLP component built by other team members. This repository contains only my individual contribution.
