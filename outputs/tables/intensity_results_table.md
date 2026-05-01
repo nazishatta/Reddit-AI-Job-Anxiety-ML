@@ -1,0 +1,6 @@
+| Model | Split | Accuracy | Macro F1 | Weighted F1 | MAE |
+|---|---|---|---|---|---|
+| logistic_regression | random_stratified | 0.9368 | 0.3607 | 0.9154 | 0.0669 |
+| linear_svm | random_stratified | 0.9405 | 0.3654 | 0.9162 | 0.0669 |
+| logistic_regression | temporal_chronological_70_30 | 0.9380 | 0.4162 | 0.9207 | 0.0769 |
+| linear_svm | temporal_chronological_70_30 | 0.9404 | 0.3239 | 0.9139 | 0.0720 |

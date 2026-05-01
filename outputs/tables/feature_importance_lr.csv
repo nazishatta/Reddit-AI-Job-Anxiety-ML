@@ -1,0 +1,51 @@
+feature,coefficient,direction
+subreddit__x0_depression,0.8500667417839719,anxiety
+meta__text_len,0.7950334987718065,anxiety
+text__need,0.6982471924760191,anxiety
+text__money,0.6056610077485937,anxiety
+text__let,0.562411166332364,anxiety
+text__takes,0.5606739066561058,anxiety
+text__ai jobs,0.5419494992274025,anxiety
+text__understand,0.5199007297790081,anxiety
+text__business,0.5134845666012626,anxiety
+text__wouldn,0.49823570123798516,anxiety
+text__started,0.48289179644063235,anxiety
+text__retirement,0.4825614590913253,anxiety
+text__having,0.4822633516278175,anxiety
+text__implementing,0.4712062226031438,anxiety
+text__response,0.4700484811733716,anxiety
+text__wasn,0.4657408165234021,anxiety
+text__used,0.4505658749759958,anxiety
+text__cases,0.446489097962215,anxiety
+text__people,0.44560171485444394,anxiety
+text__ai takes,0.4443949864208495,anxiety
+text__regarding,0.43793917929933784,anxiety
+text__therapists,0.4255402111851156,anxiety
+text__way,0.4218816185724952,anxiety
+text__real,0.4131557197872517,anxiety
+text__tech jobs,0.40779685053082615,anxiety
+subreddit__x0_machinelearning,-1.1599397964741145,not_anxiety
+text__resume,-0.537705413943448,not_anxiety
+text__think,-0.44883219577520234,not_anxiety
+text__10,-0.42026373699489267,not_anxiety
+text__market,-0.4095495081105695,not_anxiety
+text__questions,-0.4036620630920631,not_anxiety
+text__remote,-0.38098156786674386,not_anxiety
+text__working,-0.35599450988075676,not_anxiety
+text__live,-0.35293045120560024,not_anxiety
+subreddit__x0_datascience,-0.3517206925130023,not_anxiety
+text__using,-0.33982845691940433,not_anxiety
+text__ve,-0.3330778994998887,not_anxiety
+text__automation,-0.32839151621522966,not_anxiety
+text__human,-0.3222207568533213,not_anxiety
+text__machine,-0.3209621533451127,not_anxiety
+text__job,-0.3072894892052288,not_anxiety
+text__try,-0.3021092325824634,not_anxiety
+text__means,-0.297106034189115,not_anxiety
+text__workers,-0.28944143600081557,not_anxiety
+text__machine learning,-0.28074778332359906,not_anxiety
+text__advice,-0.27451624755428383,not_anxiety
+text__pretty,-0.271446578569478,not_anxiety
+text__ask,-0.2628194534276982,not_anxiety
+text__search,-0.2520625960335172,not_anxiety
+text__look,-0.25198380715308616,not_anxiety

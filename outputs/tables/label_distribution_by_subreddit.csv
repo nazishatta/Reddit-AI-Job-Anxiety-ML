@@ -1,0 +1,15 @@
+subreddit,label,count
+anxiety,0,1
+anxiety,1,2
+careerguidance,0,415
+careerguidance,1,28
+datascience,0,213
+datascience,1,10
+depression,0,4
+depression,1,2
+jobs,0,383
+jobs,1,33
+machinelearning,0,229
+machinelearning,1,5
+mentalhealth,0,14
+mentalhealth,1,2

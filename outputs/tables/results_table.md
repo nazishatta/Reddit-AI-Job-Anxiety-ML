@@ -1,0 +1,6 @@
+| Model | Split | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|---|---|---|---|---|---|---|
+| logistic_regression | random_stratified | 0.9368 | 0.3333 | 0.0625 | 0.1053 | 0.7330 |
+| linear_svm | random_stratified | 0.9368 | 0.3333 | 0.0625 | 0.1053 | 0.7357 |
+| logistic_regression | temporal_chronological_70_30 | 0.8784 | 0.1429 | 0.2083 | 0.1695 | 0.6719 |
+| linear_svm | temporal_chronological_70_30 | 0.8933 | 0.1724 | 0.2083 | 0.1887 | 0.6669 |
